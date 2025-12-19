@@ -1,0 +1,13 @@
+{
+  "itemGroup.kse": "Example Mod Tab",
+  "block.kse.example_block": "Example Block",
+  "item.kse.example_item": "Example Item",
+
+  "kse.configuration.title": "Kallen's Sculk Expanse Configs",
+  "kse.configuration.section.kse.common.toml": "Kallen's Sculk Expanse Configs",
+  "kse.configuration.section.kse.common.toml.title": "Kallen's Sculk Expanse Configs",
+  "kse.configuration.items": "Item List",
+  "kse.configuration.logDirtBlock": "Log Dirt Block",
+  "kse.configuration.magicNumberIntroduction": "Magic Number Text",
+  "kse.configuration.magicNumber": "Magic Number"
+}
