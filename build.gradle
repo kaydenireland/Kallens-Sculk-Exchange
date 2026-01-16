@@ -98,12 +98,18 @@ configurations {
 }
 
 repositories {
-    mavenLocal()
+    maven {
+        url = "https://api.modrinth.com/maven"
+        content {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 dependencies {
-    implementation 'net.kallen.klib:klib:1.0.0'  // Replace with actual values from kLib's gradle.properties
+    implementation "maven.modrinth:klib:1.0.2"
 }
+
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
     var replaceProperties = [

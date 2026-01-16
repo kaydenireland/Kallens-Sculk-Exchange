@@ -1,7 +1,14 @@
 {
-  "itemGroup.kse": "Example Mod Tab",
+  "creativetab.kse.items": "KSE Items",
   "block.kse.example_block": "Example Block",
-  "item.kse.example_item": "Example Item",
+  "item.kse.murky_mirror": "Murky Mirror",
+  "item.kse.sculk_horn": "Sculk Horn",
+  "item.kse.amethyst_spear": "Amethyst Spear",
+
+  "item.kse.iron_bell": "Iron Bell",
+  "item.kse.amethyst_bell": "Amethyst Bell",
+
+  "trim_material.kse.echo_shard": "Echo Shard Material",
 
   "kse.configuration.title": "Kallen's Sculk Expanse Configs",
   "kse.configuration.section.kse.common.toml": "Kallen's Sculk Expanse Configs",

@@ -1,0 +1,20 @@
+{
+  "amethyst_bell": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "kse:bell/amethyst_bell"
+    ]
+  },
+  "echo_bell": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "kse:bell/echo_bell"
+    ]
+  },
+  "glow_bell": {
+    "subtitle": "sounds.klib.bell",
+    "sounds": [
+      "kse:bell/glow_bell"
+    ]
+  }
+}
