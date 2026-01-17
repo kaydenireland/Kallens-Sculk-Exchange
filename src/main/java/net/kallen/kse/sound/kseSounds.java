@@ -16,6 +16,8 @@ public class kseSounds {
             DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, KallensSculkExpanse.MODID);
 
     public static final Supplier<SoundEvent> AMETHYST_BELL = registerSoundEvent("amethyst_bell");
+    public static final Supplier<SoundEvent> ECHO_BELL = registerSoundEvent("echo_bell");
+    public static final Supplier<SoundEvent> GLOW_BELL = registerSoundEvent("glow_bell");
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {
         Identifier id = Identifier.fromNamespaceAndPath(KallensSculkExpanse.MODID, name);

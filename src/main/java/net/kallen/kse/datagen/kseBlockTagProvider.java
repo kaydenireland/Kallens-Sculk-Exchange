@@ -17,6 +17,7 @@ public class kseBlockTagProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(kseBlocks.SCULKED_COBBLESTONE.get())
                 .add(kseBlocks.SCULKED_DEEPSLATE.get())
                 .add(kseBlocks.ECHO_SHARD_BLOCK.get())
                 .add(kseBlocks.ECHO_ORE.get())

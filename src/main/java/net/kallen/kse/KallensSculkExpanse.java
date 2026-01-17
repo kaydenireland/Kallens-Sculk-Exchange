@@ -4,6 +4,7 @@ import net.kallen.kse.block.kseBlocks;
 import net.kallen.kse.item.kseCreativeModeTabs;
 import net.kallen.kse.item.kseItems;
 import net.kallen.kse.potion.ksePotions;
+import net.kallen.kse.sound.kseSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -53,6 +54,7 @@ public class KallensSculkExpanse {
         kseBlocks.register(modEventBus);
         kseCreativeModeTabs.register(modEventBus);
         ksePotions.register(modEventBus);
+        kseSounds.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

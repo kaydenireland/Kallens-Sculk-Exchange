@@ -59,6 +59,13 @@ public class kseRecipeProvider extends RecipeProvider {
                 .requires(kseBlocks.ECHO_SHARD_BLOCK)
                 .unlockedBy("has_echo_shard_block", has(kseBlocks.ECHO_SHARD_BLOCK)).save(output);
 
+        shapeless(RecipeCategory.MISC, kseBlocks.SCULKED_COBBLESTONE)
+                .requires(Blocks.COBBLESTONE)
+                .requires(Blocks.SCULK_VEIN)
+                .unlockedBy("has_cobblestone", has(Blocks.COBBLESTONE))
+                .unlockedBy("has_sculk_vein", has(Blocks.SCULK_VEIN))
+                .save(output);
+
         shapeless(RecipeCategory.MISC, kseBlocks.SCULKED_DEEPSLATE)
                 .requires(Blocks.COBBLED_DEEPSLATE)
                 .requires(Blocks.SCULK_VEIN)
@@ -82,6 +89,36 @@ public class kseRecipeProvider extends RecipeProvider {
                 .define('B', Items.IRON_NUGGET)
                 .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
                 .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET))
+                .save(output);
+
+        shaped(RecipeCategory.MISC, kseItems.AMETHYST_BELL.get())
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern("AAA")
+                .define('A', Items.AMETHYST_SHARD)
+                .define('B', kseItems.IRON_BELL)
+                .unlockedBy("has_amethyst_shard", has(Items.AMETHYST_SHARD))
+                .unlockedBy("has_iron_bell", has(kseItems.IRON_BELL))
+                .save(output);
+
+        shaped(RecipeCategory.MISC, kseItems.ECHO_BELL.get())
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern("AAA")
+                .define('A', Items.ECHO_SHARD)
+                .define('B', kseItems.IRON_BELL)
+                .unlockedBy("has_echo_shard", has(Items.ECHO_SHARD))
+                .unlockedBy("has_iron_bell", has(kseItems.IRON_BELL))
+                .save(output);
+
+        shaped(RecipeCategory.MISC, kseItems.GLOW_BELL.get())
+                .pattern("AAA")
+                .pattern("ABA")
+                .pattern("AAA")
+                .define('A', Blocks.GLOWSTONE)
+                .define('B', kseItems.IRON_BELL)
+                .unlockedBy("has_glowstone", has(Blocks.GLOWSTONE))
+                .unlockedBy("has_iron_bell", has(kseItems.IRON_BELL))
                 .save(output);
 
     }

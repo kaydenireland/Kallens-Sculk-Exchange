@@ -23,9 +23,13 @@ public class kseCreativeModeTabs {
                         output.accept(kseItems.AMETHYST_SPEAR);
                         output.accept(kseItems.ECHO_SPEAR);
                         output.accept(kseItems.IRON_BELL);
+                        output.accept(kseItems.AMETHYST_BELL);
+                        output.accept(kseItems.ECHO_BELL);
+                        output.accept(kseItems.GLOW_BELL);
                         output.accept(kseItems.SCULK_HORN);
                         output.accept(kseItems.MURKY_MIRROR);
 
+                        output.accept(kseBlocks.SCULKED_COBBLESTONE);
                         output.accept(kseBlocks.SCULKED_DEEPSLATE);
                         output.accept(kseBlocks.ECHO_SHARD_BLOCK);
                         output.accept(kseBlocks.ECHO_ORE);

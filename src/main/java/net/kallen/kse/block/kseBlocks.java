@@ -33,6 +33,10 @@ public class kseBlocks {
         BLOCKS.register(eventBus);
     }
 
+    public static final DeferredBlock<Block> SCULKED_COBBLESTONE = registerBlock("sculked_cobblestone",
+            properties -> new Block(properties
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
     public static final DeferredBlock<Block> SCULKED_DEEPSLATE = registerBlock("sculked_deepslate",
             properties -> new Block(properties
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));

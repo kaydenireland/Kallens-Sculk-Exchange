@@ -5,7 +5,10 @@ import net.kallen.klib.item.HornItem;
 import net.kallen.klib.item.MagicMirrorItem;
 import net.kallen.klib.item.SpearItem;
 import net.kallen.kse.KallensSculkExpanse;
+import net.kallen.kse.item.custom.AmethystBellItem;
+import net.kallen.kse.item.custom.EchoBellItem;
 import net.kallen.kse.item.custom.EchoSpearItem;
+import net.kallen.kse.item.custom.GlowBellItem;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
@@ -38,5 +41,8 @@ public class kseItems {
 
     // Bells
     public static final DeferredItem<Item> IRON_BELL = ITEMS.registerItem("iron_bell", BellItem::new);
+    public static final DeferredItem<Item> AMETHYST_BELL = ITEMS.registerItem("amethyst_bell", AmethystBellItem::new);
+    public static final DeferredItem<Item> ECHO_BELL = ITEMS.registerItem("echo_bell", EchoBellItem::new);
+    public static final DeferredItem<Item> GLOW_BELL = ITEMS.registerItem("glow_bell", GlowBellItem::new);
 
 }

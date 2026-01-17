@@ -8,7 +8,10 @@
 
   "item.kse.iron_bell": "Iron Bell",
   "item.kse.amethyst_bell": "Amethyst Bell",
+  "item.kse.echo_bell": "Echo Bell",
+  "item.kse.glow_bell": "Glow Bell",
 
+  "block.kse.sculked_cobblestone": "Sculked Cobblestone",
   "block.kse.sculked_deepslate": "Sculked Deepslate",
   "block.kse.echo_shard_block": "Echo Shard Block",
   "block.kse.echo_ore": "Echo Ore",

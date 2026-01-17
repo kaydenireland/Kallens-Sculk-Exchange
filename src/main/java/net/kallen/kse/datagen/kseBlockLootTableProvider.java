@@ -31,6 +31,7 @@ public class kseBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        dropSelf(kseBlocks.SCULKED_COBBLESTONE.get());
         dropSelf(kseBlocks.SCULKED_DEEPSLATE.get());
         dropSelf(kseBlocks.ECHO_SHARD_BLOCK.get());
 

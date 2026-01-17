@@ -24,8 +24,12 @@ public class kseModelProvider extends ModelProvider {
 
         // Bells
         itemModels.generateFlatItem(kseItems.IRON_BELL.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(kseItems.AMETHYST_BELL.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(kseItems.ECHO_BELL.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(kseItems.GLOW_BELL.get(), ModelTemplates.FLAT_ITEM);
 
         /* BLOCKS */
+        blockModels.createTrivialCube(kseBlocks.SCULKED_COBBLESTONE.get());
         blockModels.createTrivialCube(kseBlocks.SCULKED_DEEPSLATE.get());
         blockModels.createTrivialCube(kseBlocks.ECHO_SHARD_BLOCK.get());
         blockModels.createTrivialCube(kseBlocks.ECHO_ORE.get());
