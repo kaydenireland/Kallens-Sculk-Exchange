@@ -29,6 +29,8 @@ public class DataGenerators {
         BlockTagsProvider blockTagsProvider = new kseBlockTagProvider(packOutput, lookupProvider);
         generator.addProvider(true, blockTagsProvider);
         generator.addProvider(true, new kseItemTagProvider(packOutput, lookupProvider));
+        generator.addProvider(true, new kseRecipeProvider.Runner(packOutput, lookupProvider));
+
 
         generator.addProvider(true, new kseModelProvider(packOutput));
 
@@ -47,6 +49,7 @@ public class DataGenerators {
         BlockTagsProvider blockTagsProvider = new kseBlockTagProvider(packOutput, lookupProvider);
         generator.addProvider(true, blockTagsProvider);
         generator.addProvider(true, new kseItemTagProvider(packOutput, lookupProvider));
+        generator.addProvider(true, new kseRecipeProvider.Runner(packOutput, lookupProvider));
 
         generator.addProvider(true, new kseModelProvider(packOutput));
 
