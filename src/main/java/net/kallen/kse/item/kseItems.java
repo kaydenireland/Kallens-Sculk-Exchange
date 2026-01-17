@@ -5,6 +5,7 @@ import net.kallen.klib.item.HornItem;
 import net.kallen.klib.item.MagicMirrorItem;
 import net.kallen.klib.item.SpearItem;
 import net.kallen.kse.KallensSculkExpanse;
+import net.kallen.kse.item.custom.EchoSpearItem;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
@@ -20,8 +21,12 @@ public class kseItems {
     }
 
     public static final DeferredItem<Item> AMETHYST_SPEAR = ITEMS.registerItem("amethyst_spear", properties -> new SpearItem(
-            properties, ToolMaterial.COPPER, 1, 9, 1, 1, 1, 1, 1, 1, 1
-            ));
+            properties, ToolMaterial.COPPER, 1.25F, 3.0F, 0.3F, 2.0F, 6.0F, 4.5F, 5.1F, 7.5F, 4.6F
+    ));
+
+    public static final DeferredItem<Item> ECHO_SPEAR = ITEMS.registerItem("echo_spear", properties -> new EchoSpearItem(
+            properties, ToolMaterial.COPPER, 1.25F, 3.0F, 0.3F, 2.0F, 6.0F, 4.5F, 5.1F, 7.5F, 4.6F
+    ));
 
     public static final DeferredItem<Item> MURKY_MIRROR = ITEMS.registerItem("murky_mirror", properties -> new MagicMirrorItem(
             properties.stacksTo(1),

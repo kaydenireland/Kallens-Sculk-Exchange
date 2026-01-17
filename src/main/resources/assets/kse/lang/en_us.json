@@ -4,9 +4,20 @@
   "item.kse.murky_mirror": "Murky Mirror",
   "item.kse.sculk_horn": "Sculk Horn",
   "item.kse.amethyst_spear": "Amethyst Spear",
+  "item.kse.echo_spear": "Echo Spear",
 
   "item.kse.iron_bell": "Iron Bell",
   "item.kse.amethyst_bell": "Amethyst Bell",
+
+  "block.kse.sculked_deepslate": "Sculked Deepslate",
+  "block.kse.echo_shard_block": "Echo Shard Block",
+  "block.kse.echo_ore": "Echo Ore",
+  "block.kse.deepslate_echo_ore": "Deepslate Echo Ore",
+
+  "item.minecraft.potion.effect.blindness_potion": "Blindness Potion",
+  "item.minecraft.splash_potion.effect.blindness_potion": "Blindness Splash Potion",
+  "item.minecraft.lingering_potion.effect.blindness_potion": "Blindness Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.blindness_potion": "Arrow of Blindness",
 
   "trim_material.kse.echo_shard": "Echo Shard Material",
 

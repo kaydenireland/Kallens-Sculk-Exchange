@@ -26,7 +26,8 @@ public class kseItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
 
         tag(ItemTags.SPEARS)
-                .add(kseItems.AMETHYST_SPEAR.get());
+                .add(kseItems.AMETHYST_SPEAR.get())
+                .add(kseItems.ECHO_SPEAR.get());
 
 
         tag(ItemTags.TRIM_MATERIALS)
